@@ -24,7 +24,7 @@ jobs:
       - name: Build
         run: |
           npm run build --if-present
-      - name: Deploy S3
+      - name: Deploy
         uses: jakejarvis/s3-sync-action@master
         with:
           args: --acl public-read --delete
