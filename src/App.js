@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Deploy a SSG into S3 Bucket
         </a>
       </header>
     </div>
