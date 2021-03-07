@@ -1,6 +1,10 @@
 name: Deploy React App SSG to S3
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
+      - main
 
 jobs:
   build-deploy-s3:

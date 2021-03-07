@@ -1,0 +1,37 @@
+.top-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3b5998;
+  color: white;
+}
+
+.logo {
+  padding: 0.5rem;
+  font-style: bold;
+}
+
+.navbar {
+  padding: 0.5rem;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  cursor: pointer;
+  list-style: none;
+  padding: 0rem 0.75rem;
+  font-size: 1rem;
+}
+
+.navbar li:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar li:active {
+  color: white;
+  font-weight: bold;
+}
